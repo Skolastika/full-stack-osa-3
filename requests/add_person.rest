@@ -1,0 +1,39 @@
+POST http://localhost:3001/api/persons
+content-type: application/json
+
+{
+  "name": "Testi Testaaja",
+  "number": "912345678"
+}
+
+###
+
+POST http://localhost:3001/api/persons
+content-type: application/json
+
+###
+
+POST http://localhost:3001/api/persons
+content-type: application/json
+
+{
+  "name": "Testi Testaaja"
+}
+
+###
+
+POST http://localhost:3001/api/persons
+content-type: application/json
+
+{
+  "number": "12345678"
+}
+
+###
+
+POST http://localhost:3001/api/persons
+content-type: application/json
+
+{
+}
+
